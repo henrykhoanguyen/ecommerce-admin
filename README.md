@@ -5,13 +5,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, install dependencies needed for this project
 
 ```bash
-npm install prisma --save-dev
+npm install
 ```
 
 Second, install prisma
 
 ```bash
-npm
+npm install prisma --save-dev
 ```
 
 Second, run the development server:
