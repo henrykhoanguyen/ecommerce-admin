@@ -33,8 +33,9 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 DATABASE_URL='mysql://<CLUSTER NAME>:<PASSWORD>@aws.connect.psdb.cloud/ecommerce-admin?sslaccept=strict'
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
-
 STRIPE_API_KEY=
+FRONTEND_STORE_URL=http://localhost:3001 # or your own url
+STRIPE_WEBHOOK_SECRET=
 ```
 
 Finally, run the development server:
