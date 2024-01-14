@@ -22,7 +22,7 @@ interface CellActionProps {
   data: BillboardColumn;
 }
 
-const CellAction: React.FC<CellActionProps> = ({ data }) => {
+export const CellAction: React.FC<CellActionProps> = ({ data }) => {
   const router = useRouter();
   const params = useParams();
 
@@ -88,5 +88,3 @@ const CellAction: React.FC<CellActionProps> = ({ data }) => {
     </>
   );
 };
-
-export default CellAction;
